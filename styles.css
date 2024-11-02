@@ -1,4 +1,7 @@
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: sans-serif;
 }    
 body{
@@ -6,6 +9,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
 }
 #table{
     border: 2px solid black;
@@ -35,6 +39,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    gap: 1rem;
 }
 .help .container{
     display: flex;
