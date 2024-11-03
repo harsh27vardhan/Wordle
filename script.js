@@ -23,6 +23,7 @@ function startGame(){
     }
     
     const elem = createTable();
+    table.focus();
     
     let attempt = 0;
     const tryWord = (w)=>{
